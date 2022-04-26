@@ -51,6 +51,17 @@ class teacher
     {
         
     }
+    public function showprofile()
+    {
+        $this->getid();
+        $this->getfname();
+        $this->getlname();
+        $this->getph();
+        $this->getadd();
+        $this->getem();
+        $this->getpass();
+        
+    }
 
 }
 
